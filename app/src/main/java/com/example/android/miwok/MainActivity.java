@@ -27,5 +27,47 @@ public class MainActivity extends AppCompatActivity {
                         "Open the list of phrases", Toast.LENGTH_SHORT).show();
             }
         });
+
+        // Find the View that shows the colors category
+        View colors = findViewById(R.id.colors);
+
+        // Set a click listener on that View
+        colors.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Pop up a toast message
+                Toast.makeText(MainActivity.this,
+                        "Open the list of colors", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        // Find the View that shows the numbers category
+        View numbers = findViewById(R.id.numbers);
+
+        // Set a click listener on that View
+        numbers.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the numbers View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Pop up a toast message
+                Toast.makeText(MainActivity.this,
+                        "Open the list of numbers", Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        // Find the View that shows the numbers category
+        View family = findViewById(R.id.family);
+
+        // Set a click listener on that View
+        family.setOnClickListener(new OnClickListener() {
+            // The code in this method will be executed when the family members View is clicked on.
+            @Override
+            public void onClick(View view) {
+                // Pop up a toast message
+                Toast.makeText(MainActivity.this,
+                        "Open the list of family members", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
