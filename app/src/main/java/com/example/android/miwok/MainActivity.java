@@ -1,5 +1,6 @@
 package com.example.android.miwok;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -22,9 +23,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the phrases View is clicked on.
             @Override
             public void onClick(View view) {
-                // Pop up a toast message
-                Toast.makeText(MainActivity.this,
-                        "Open the list of phrases", Toast.LENGTH_SHORT).show();
+                Intent phrasesIntent = new Intent(MainActivity.this, PhrasesActivity.class);
+                startActivity(phrasesIntent);
             }
         });
 
