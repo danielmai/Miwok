@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -36,9 +35,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the colors View is clicked on.
             @Override
             public void onClick(View view) {
-                // Pop up a toast message
-                Toast.makeText(MainActivity.this,
-                        "Open the list of colors", Toast.LENGTH_SHORT).show();
+                Intent colorsIntent = new Intent(MainActivity.this, ColorsActivity.class);
+                startActivity(colorsIntent);
             }
         });
 
@@ -50,9 +48,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the numbers View is clicked on.
             @Override
             public void onClick(View view) {
-                // Pop up a toast message
-                Toast.makeText(MainActivity.this,
-                        "Open the list of numbers", Toast.LENGTH_SHORT).show();
+                Intent numbersIntent = new Intent(MainActivity.this, NumbersActivity.class);
+                startActivity(numbersIntent);
             }
         });
 
@@ -64,9 +61,8 @@ public class MainActivity extends AppCompatActivity {
             // The code in this method will be executed when the family members View is clicked on.
             @Override
             public void onClick(View view) {
-                // Pop up a toast message
-                Toast.makeText(MainActivity.this,
-                        "Open the list of family members", Toast.LENGTH_SHORT).show();
+                Intent familyIntent = new Intent(MainActivity.this, FamilyActivity.class);
+                startActivity(familyIntent);
             }
         });
     }
