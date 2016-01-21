@@ -1,7 +1,8 @@
 package com.example.android.miwok;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 public class PhrasesActivity extends AppCompatActivity {
 
@@ -22,5 +23,20 @@ public class PhrasesActivity extends AppCompatActivity {
         phrases[7] = "I’m coming.";
         phrases[8] = "Let’s go.";
         phrases[9] = "Come here.";
+
+        // Using a "while loop", print out each element of the array to the log output
+        int index = 0;
+        while (index < phrases.length) {
+            // Print a log message
+            Log.v("PhrasesActivity", "Phrase at position " + index + ": " + phrases[index]);
+            // Increase the index by 1 to go to the next position
+            index++;
+        }
+
+        // Using a "for loop", print out each element of the array to the log output
+        for (int i = 0; i < phrases.length; i++) {
+            // Print a log message
+            Log.v("PhrasesActivity", "Phrase at position " + i + ": " + phrases[i]);
+        }
     }
 }
