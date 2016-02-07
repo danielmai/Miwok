@@ -18,6 +18,6 @@
     <!-- Background color for the phrases category -->
     <color name="category_phrases">#16AFCA</color>
 
-    <!-- Background color for the list item -->
-    <color name="list_item_background">#FFF7DA</color>
+    <!-- Background color for images and for the main category list -->
+    <color name="tan_background">#FFF7DA</color>
 </resources>
