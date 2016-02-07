@@ -15,10 +15,10 @@
         android:src="@drawable/ic_numbers"/>
 
     <LinearLayout
+        android:id="@+id/text_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@color/category_family"
         android:paddingLeft="16dp"
         android:paddingRight="16dp">
 
