@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Create an adapter for the view pager with all the category fragments
         CategoryAdapter adapter = new CategoryAdapter(getSupportFragmentManager());
-        adapter.addFragment(new NumbersFragment(), "Numbers");
-        adapter.addFragment(new FamilyFragment(), "Family");
-        adapter.addFragment(new ColorsFragment(), "Colors");
-        adapter.addFragment(new PhrasesFragment(), "Phrases");
+        adapter.addFragment(new NumbersFragment(), getString(R.string.category_numbers));
+        adapter.addFragment(new FamilyFragment(), getString(R.string.category_family));
+        adapter.addFragment(new ColorsFragment(), getString((R.string.category_colors)));
+        adapter.addFragment(new PhrasesFragment(), getString(R.string.category_phrases));
 
         // Set the adapter to the view pager
         viewPager.setAdapter(adapter);

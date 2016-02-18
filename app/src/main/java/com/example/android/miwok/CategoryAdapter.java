@@ -17,13 +17,13 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * List of the category fragments that will be displayed in the view pager
      */
-    private final List<Fragment> mFragments = new ArrayList<>();
+    private final List<Fragment> mFragments = new ArrayList<Fragment>();
 
     /**
      * List of the category names for each fragment. The names will show up in the
      * {@link TabLayout}
      */
-    private final List<String> mFragmentTitles = new ArrayList<>();
+    private final List<String> mFragmentTitles = new ArrayList<String>();
 
     /**
      * Create a new {@link CategoryAdapter} object.
