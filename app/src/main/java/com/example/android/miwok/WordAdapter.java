@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 /**
@@ -61,7 +63,7 @@ public class WordAdapter extends ArrayAdapter<Word>  {
         // Check if an image is provided for this word or not
         if (currentWord.hasImage()) {
             // If an image is available, display the provided image based on the resource ID
-            imageView.setImageResource(currentWord.getImageResourceId());
+            Glide.with(getContext()).load(currentWord.getImageResourceId()).into(imageView);
             // Make sure the view is visible
             imageView.setVisibility(View.VISIBLE);
         } else {
