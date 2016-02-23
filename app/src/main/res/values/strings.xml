@@ -14,7 +14,7 @@
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members</string>
 
-    <!-- Vocabulary words for colors -->
+    <!-- Vocabulary words for colors [CHAR LIMIT=20] -->
     <string name="color_red">red</string>
     <string name="color_dusty_yellow">dusty yellow</string>
     <string name="color_mustard_yellow">mustard yellow</string>
@@ -24,7 +24,7 @@
     <string name="color_gray">gray</string>
     <string name="color_white">white</string>
 
-    <!-- Vocabulary words for numbers -->
+    <!-- Vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="number_one">one</string>
     <string name="number_two">two</string>
     <string name="number_three">three</string>
@@ -36,7 +36,7 @@
     <string name="number_nine">nine</string>
     <string name="number_ten">ten</string>
 
-    <!-- Vocabulary words for family -->
+    <!-- Vocabulary words for family [CHAR LIMIT=20] -->
     <string name="family_father">father</string>
     <string name="family_mother">mother</string>
     <string name="family_son">son</string>
@@ -48,7 +48,7 @@
     <string name="family_grandmother">grandmother</string>
     <string name="family_grandfather">grandfather</string>
 
-    <!-- Vocabulary words for phrases -->
+    <!-- Vocabulary words for phrases [CHAR LIMIT=30] -->
     <string name="phrase_where_are_you_going">Where are you going?</string>
     <string name="phrase_what_is_your_name">What is your name?</string>
     <string name="phrase_my_name_is">My name is...</string>

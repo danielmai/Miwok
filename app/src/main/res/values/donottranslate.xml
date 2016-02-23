@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Miwok vocabulary words for colors -->
+    <!-- Miwok vocabulary words for colors [CHAR LIMIT=20] -->
     <string name="miwok_color_red">weṭeṭṭi</string>
     <string name="miwok_color_dusty_yellow">ṭopiisә</string>
     <string name="miwok_color_mustard_yellow">chiwiiṭә</string>
@@ -11,7 +11,7 @@
     <string name="miwok_color_gray">ṭopoppi</string>
     <string name="miwok_color_white">kelelli</string>
 
-    <!-- Miwok vocabulary words for family -->
+    <!-- Miwok vocabulary words for family [CHAR LIMIT=20] -->
     <string name="miwok_family_father">әpә</string>
     <string name="miwok_family_mother">әṭa</string>
     <string name="miwok_family_son">angsi</string>
@@ -23,7 +23,7 @@
     <string name="miwok_family_grandmother">ama</string>
     <string name="miwok_family_grandfather">paapa</string>
 
-    <!-- Miwok vocabulary words for numbers -->
+    <!-- Miwok vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="miwok_number_one">lutti</string>
     <string name="miwok_number_two">otiiko</string>
     <string name="miwok_number_three">tolookosu</string>
@@ -35,7 +35,7 @@
     <string name="miwok_number_nine">wo\'e</string>
     <string name="miwok_number_ten">na\'aacha</string>
 
-    <!-- Miwok vocabulary words for phrases -->
+    <!-- Miwok vocabulary words for phrases [CHAR LIMIT=20] -->
     <string name="miwok_phrase_where_are_you_going">minto wuksus</string>
     <string name="miwok_phrase_what_is_your_name">tinnә oyaase\'nә</string>
     <string name="miwok_phrase_my_name_is">oyaaset...</string>
