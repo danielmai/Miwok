@@ -32,8 +32,8 @@
     <string name="miwok_number_six">temmokka</string>
     <string name="miwok_number_seven">kenekaku</string>
     <string name="miwok_number_eight">kawinta</string>
-    <string name="miwok_number_nine">wo’e</string>
-    <string name="miwok_number_ten">na’aacha</string>
+    <string name="miwok_number_nine">wo\'e</string>
+    <string name="miwok_number_ten">na\'aacha</string>
 
     <!-- Miwok vocabulary words for phrases -->
     <string name="miwok_phrase_where_are_you_going">minto wuksus</string>
@@ -42,7 +42,7 @@
     <string name="miwok_phrase_how_are_you_feeling">michәksәs?</string>
     <string name="miwok_phrase_im_feeling_good">kuchi achit</string>
     <string name="miwok_phrase_are_you_coming">әәnәs\'aa?</string>
-    <string name="miwok_phrase_yes_im_coming">hәә’ әәnәm</string>
+    <string name="miwok_phrase_yes_im_coming">hәә\' әәnәm</string>
     <string name="miwok_phrase_im_coming">әәnәm</string>
     <string name="miwok_phrase_lets_go">yoowutis</string>
     <string name="miwok_phrase_come_here">әnni\'nem</string>
